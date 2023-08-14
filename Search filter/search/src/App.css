@@ -1,0 +1,54 @@
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+:root {
+  --background-color: rgb(56, 55, 55);
+  --font-color: white;
+  --description-color: grey;
+  --user-color: silver;
+}
+.dark {
+  --background-color: rgb(214, 214, 214);
+  --font-color: grey;
+  --description-color: rgb(54, 54, 54);
+  --user-color: rgb(138, 138, 138);
+}
+* {
+  list-style-type: none;
+}
+.cont {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+}
+input {
+  width: 50%;
+  height: 30px;
+  margin-left: 25%;
+  font-size: 15px;
+  border: none;
+}
+.description ul {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid var(--description-color);
+}
+.description li {
+  margin-right: 5%;
+
+}
+.users ul {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid var(--user-color);
+}
+.users li {
+  margin-right: 5%;
+}
+.users ul li:last-child {
+  margin-top: 5px;
+}
